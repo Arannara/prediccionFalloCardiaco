@@ -240,6 +240,9 @@ elif pagina == "comoLoHicimos":
     image = Image.open("images/perdida6Importantes.png")
     st.image(image, caption="Perdida por épocas, modelo con 6 variables más importantes")
 
+    st.subheader("💽 Código")
+    st.write(
+    "Acá puedes ver el repositorio del [código](https://github.com/Arannara/prediccionFalloCardiaco) junto con los modelos y los notebooks usados para el pre-procesamiento y el entrenamiento")
 
     if st.button("Haz clic aquí para volver a la página inicial"):
        st.query_params["page"] = "inicio" 
